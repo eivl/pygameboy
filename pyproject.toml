@@ -1,0 +1,32 @@
+[project]
+name = "pygameboy"
+version = "0.0.1"
+description = "A Game Boy emulator for Python (name reservation; implementation in progress)"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Eivind Teig", email = "eivind.teig@gmail.com" }
+]
+requires-python = ">=3.12"
+keywords = ["gameboy", "emulator", "pygame", "retro"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Games/Entertainment",
+    "Topic :: System :: Emulators",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/eivl/pygameboy"
+Repository = "https://github.com/eivl/pygameboy"
+Issues = "https://github.com/eivl/pygameboy/issues"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
